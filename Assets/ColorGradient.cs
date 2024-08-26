@@ -134,8 +134,8 @@ public class ColorGradient : MonoBehaviour
     private void GenerateData()
     {
         float start = 0f;
-        float end = 2 * Mathf.PI;
-        float step = 0.08f;
+        float end = 10 * Mathf.PI;
+        float step = 0.3f;
 
         // Clear existing data
         redSerie.ClearData();
